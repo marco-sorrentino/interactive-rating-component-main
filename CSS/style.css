@@ -1,0 +1,128 @@
+/* GENERAL RULES */
+
+body {
+  background-color: #131519;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* CARD */
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 0.9rem;
+  color: rgba(227, 227, 227, 0.636);
+  line-height: 20px;
+}
+
+.container {
+  width: 25%;
+  margin: 100px auto;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(43, 53, 70, 1) 100%
+  );
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.circle-star-container {
+  background-color: #1a1e26;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-number-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.cicle {
+  background-color: #262e36;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.button-container {
+  margin-top: 25px;
+}
+
+button {
+  border: none;
+  width: 100%;
+  border-radius: 25px;
+  padding: 15px;
+  background-color: #fb7612;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.cicle:hover {
+  background-color: #fb7612;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: white;
+  color: #fb7612;
+}
+
+.cicle:focus {
+  background-color: rgb(187, 187, 187);
+}
+
+/* SECOND CARD */
+
+.container-thanks {
+  width: 25%;
+  margin: auto;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(43, 53, 70, 1) 100%
+  );
+  border-radius: 20px;
+  padding: 25px;
+  text-align: center;
+  display: none;
+}
+
+.selected-number {
+  background-color: #262e36;
+  border-radius: 20px;
+  padding: 5px;
+  width: 60%;
+
+  margin: 25px auto;
+}
+
+.selected-number p {
+  color: #fb7612;
+}
+
+.text-thanks {
+  margin-top: 20px;
+}

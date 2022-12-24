@@ -9,8 +9,8 @@ submitButton.addEventListener("click", () => {
   container.style.display = "none";
 });
 
-rates.forEach((rate) => {
-  rate.addEventListener("click", () => {
-    rating.innerHTML = rate.innerHTML;
+rates.forEach((conta) => {
+  conta.addEventListener("click", () => {
+    rating.innerText = conta.innerText;
   });
 });

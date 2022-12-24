@@ -89,6 +89,10 @@ button:hover {
   color: #fb7612;
 }
 
+.cicle:active {
+  background-color: rgb(187, 187, 187);
+}
+
 .cicle:focus {
   background-color: rgb(187, 187, 187);
 }
@@ -97,7 +101,7 @@ button:hover {
 
 .container-thanks {
   width: 25%;
-  margin: auto;
+  margin: 100px auto;
   background: rgb(0, 0, 0);
   background: linear-gradient(
     0deg,
